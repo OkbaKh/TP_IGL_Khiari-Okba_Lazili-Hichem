@@ -1,4 +1,4 @@
-package TP_IGL;
+package TP000;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -21,13 +21,14 @@ import java.util.Scanner;
     private ArrayList<Integer> tableau;
     private int Min = 0;
     private int MAx = 0;
+    int j= 0;
 
     /**
      * constructeur de la class
      *
      * @author lazili
      */
-    public VectorHelper() {
+    public VectorHelper2() {
         Scanner sc = new Scanner(System.in);
         System.out.print("entrez la taille du tableau : ");
         int taille = sc.nextInt();
