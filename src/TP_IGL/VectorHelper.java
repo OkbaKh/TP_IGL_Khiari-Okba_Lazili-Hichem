@@ -1,4 +1,4 @@
-package TP_IGL;
+package Tp;
 
 import java.util.ArrayList;
 import java.util.Scanner;
